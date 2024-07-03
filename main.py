@@ -31,9 +31,9 @@ MaxRandomDelay = 120
 # Accounts will be checked in the order they are listed
 AccountList = [
     {
-        "account_name": "Account 1",  # A custom name for the account (not important, just for logs)
-        "Authorization": "Bearer TOKEN_HERE",  # To get the token, refer to the README.md file
-        "UserAgent": "Your UserAgent",  # Refer to the README.md file to obtain a user agent
+        "account_name": "Rashid",  # A custom name for the account (not important, just for logs)
+        "Authorization": "Bearer 1719483752393IyhNrMzBHVUXM4S8aOwfprQGIXETFZRWcK7biDEJ3qEhugSl9Lj96XwFC6Cz2CES741965414",  # To get the token, refer to the README.md file
+        "UserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",  # Refer to the README.md file to obtain a user agent
         "Proxy": {},  # You can use proxies to avoid getting banned. Use {} for no proxy
         # Example of using a proxy:
         # "Proxy": {
@@ -46,8 +46,8 @@ AccountList = [
             "auto_get_daily_cipher": True,  # Enable auto get daily cipher by setting it to True, or set it to False to disable
             "auto_get_daily_task": True,  # Enable auto get daily task by setting it to True, or set it to False to disable
             "auto_upgrade": True,  # Enable auto upgrade by setting it to True, or set it to False to disable
-            "auto_upgrade_start": 2000000,  # Start buying upgrades when the balance is greater than this amount
-            "auto_upgrade_min": 100000,  # Stop buying upgrades when the balance is less than this amount
+            "auto_upgrade_start": 70000000,  # Start buying upgrades when the balance is greater than this amount
+            "auto_upgrade_min": 60000000,  # Stop buying upgrades when the balance is less than this amount
             # This feature will ignore the auto_upgrade_start and auto_upgrade_min.
             # By changing it to True, the bot will first find the overall best card and then wait for the best card to be available (based on cooldown or price).
             # When the best card is available, the bot will buy it and then wait for the next best card to be available.
@@ -61,7 +61,7 @@ AccountList = [
         # Example: "telegram_chat_id": "12345678".
         # If you do not wish to use this feature for this account, leave it empty.
         # This feature is optional and is required to enable the telegramBotLogging feature below.
-        "telegram_chat_id": "",  # String - you can get it from https://t.me/chatIDrobot
+        "telegram_chat_id": "741965414",  # String - you can get it from https://t.me/chatIDrobot
     },
     # Add more accounts if you want to use multiple accounts
     # {
@@ -81,8 +81,8 @@ AccountList = [
 # If you don't want to use this feature, set "is_active" to False and leave "bot_token" and "uid" fields empty.
 # This feature is optional, and you can disable it by setting "is_active" to False.
 telegramBotLogging = {
-    "is_active": False,  # Set it to True if you want to use it, and make sure to fill out the below fields
-    "bot_token": "",  # HTTP API access token from https://t.me/BotFather ~ Start your bot after creating it
+    "is_active": True,  # Set it to True if you want to use it, and make sure to fill out the below fields
+    "bot_token": "7419932502:AAHd5Xd6cfdVyaQ26rKQtWwPeMr17rRsucY",  # HTTP API access token from https://t.me/BotFather ~ Start your bot after creating it
     # Configure the what you want to receive logs from the bot
     "messages": {
         "general_info": True,  # General information
